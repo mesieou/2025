@@ -1,6 +1,11 @@
 import { useState } from "react";
-import "./App.css";
-import { Link } from "react-router-dom";
+import "./style/App.css";
+import "./style/index.css";
+import "./style/components/section1.css";
+import "./style/components/navbar.css";
+
+import Navbar from "./components/Navbar";
+import Section1 from "./components/Section1";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,29 +13,8 @@ function App() {
   return (
     <>
       <div className="container">
-        <nav>
-          <Link to="/">
-            <img
-              src="/src/assets/Marketing/logo/Marketing/logo/white Logo and title v2 (2).svg"
-              alt=""
-              className="logo"
-            />
-          </Link>
-          <ul className="nav-links">
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <Link to="/">
-            <button>Quote Now</button>
-          </Link>
-        </nav>
+        <Navbar />
+        <Section1 />
       </div>
     </>
   );
