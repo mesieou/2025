@@ -1,0 +1,29 @@
+.key-word {
+    padding: 4px 8px;
+    border-radius: 12px;
+    background-color: #ffc531;
+}
+
+.gray-title {
+    color: #969696;
+}
+
+.map svg {
+    display: inline-block;
+    text-align: end;
+    height: 70%;
+}
+
+.animation {
+    animation: fadeIn 1s;
+    position: absolute;
+    left: 40px;
+    top: 121px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    margin: 0 auto;
+  }
