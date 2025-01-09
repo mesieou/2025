@@ -1,7 +1,14 @@
+import React from 'react';
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+
 export default function Section1() {
   return (
     <section>
-      <img src="" alt="" />
+      <DotLottieReact
+        src="https://lottie.host/72a8f565-3370-43ab-9a3d-00dce2aa4c3c/vIrjh18P9Q.lottie"
+        loop
+        autoplay
+      />
       <div className="main-message">
         <h1>
           Move
