@@ -67,6 +67,9 @@ export default function Section1( ) {
         <div className="form-title-description">
           <h1>Contact us</h1>
           <h2 className="no-space-h3">Get in touch with us</h2>
+          <p>Phone: 0401 234 567</p>
+          <p>Email: info@thebestmove.com.au </p>
+          <br />
           <p>Call us or send us a message to book your move today</p>
         </div>
         <div className="contact-form ">

@@ -21,12 +21,16 @@ export default function Navbar() {
           </HashLink>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <HashLink to="#contact">Contact
+          </HashLink>
         </li>
       </ul>
-      <Link to="/">
+      <HashLink to="#contact">
         <button>Quote Now</button>
-      </Link>
+      </HashLink>
+      {/* <Link to="#contact">
+        <button>Quote Now</button>
+      </Link> */}
     </nav>
   );
 }
