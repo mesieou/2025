@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-
-export default function Header() {
+import { HashLink } from "react-router-hash-link";
+export default function Navbar() {
   
   return (
     <nav>
@@ -13,10 +13,12 @@ export default function Header() {
       </Link>
       <ul className="nav-links">
         <li>
-          <a href="#">Services</a>
+          <HashLink to="#services">Services
+          </HashLink>
         </li>
         <li>
-          <a href="#">Pricing</a>
+          <HashLink to="#pricing">Pricing
+          </HashLink>
         </li>
         <li>
           <a href="#">Contact</a>

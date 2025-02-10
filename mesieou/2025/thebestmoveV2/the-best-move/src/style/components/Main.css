@@ -36,8 +36,52 @@
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    margin-top: 35px;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 12px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.card-hourly-rate {
+    width: 300px;
+    border-radius: 12px;
+    background-color: #bdd2fd;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-top: 12px;
 }
 
 .no-space-h3 {
     margin-top: 0;
+}
+
+.hourly-rate {
+    margin-top: 0px;
+    background: #ffc531;
+    padding: 18px;
+    border-radius: 12px;
+    width: 240px;
+    text-align: center;
+}
+
+.h3-centered {
+    text-align: center;
+}
+
+.section3 {
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
 }

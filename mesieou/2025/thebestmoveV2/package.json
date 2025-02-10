@@ -2,6 +2,8 @@
   "dependencies": {
     "@cascadia-code/scroll-to-hash-element": "^2.0.3",
     "@lottiefiles/dotlottie-react": "^0.12.1",
-    "lottie-react": "^2.4.0"
+    "lottie-react": "^2.4.0",
+    "react-router-dom": "^7.1.5",
+    "react-router-hash-link": "^2.4.3"
   }
 }
