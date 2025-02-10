@@ -29,7 +29,13 @@ a:hover {
   color: var(--light-blue);
 }
 
+p {
+  color: rgb(103, 102, 102);
+}
+
 h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
   margin-bottom: 0px;
 }
 
@@ -47,11 +53,6 @@ body {
   display: flex;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 button {

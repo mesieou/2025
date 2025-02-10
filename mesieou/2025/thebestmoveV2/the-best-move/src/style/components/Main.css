@@ -27,3 +27,17 @@
     height: 600px;
     margin: 0 auto;
   }
+
+.animation-image-card {
+    height: 216px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.no-space-h3 {
+    margin-top: 0;
+}

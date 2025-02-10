@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@cascadia-code/scroll-to-hash-element": "^2.0.3",
     "@lottiefiles/dotlottie-react": "^0.12.1",
     "lottie-react": "^2.4.0"
   }
